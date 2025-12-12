@@ -1,0 +1,24 @@
+{
+    "dataset_info": {
+        "dataset_name": "ecommerce_transaction_clean",
+        "source_system": "Payment Gateway API v2",
+        "owner": "Data Engineering Team",
+        "created_by": "DE_Rakha",
+        "version": "v1.2",
+        "usage_policy": "Internal Analytics Only"
+    },
+    "lineage_history": [
+        {
+            "step": "Ingestion",
+            "source": "PaymentGatewayAPI",
+            "target": "df_raw",
+            "transformation": "Generate/Load 1500 rows"
+        },
+        {
+            "step": "Filtering",
+            "source": "df_raw",
+            "target": "df_clean",
+            "transformation": "Filter status == success"
+        }
+    ]
+}
