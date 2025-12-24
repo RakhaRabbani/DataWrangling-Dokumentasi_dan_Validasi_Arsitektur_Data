@@ -25,7 +25,7 @@ Repository ini berisi implementasi teknis dan dokumentasi teoretis mengenai **Da
 
 ## Dokumentasi Arsitektur Data
 
-[cite_start]Sesuai dengan praktik terbaik pendokumentasian arsitektur data [cite: 839-847], berikut adalah rincian standar yang diterapkan dalam proyek ini:
+Sesuai dengan praktik terbaik pendokumentasian arsitektur data, berikut adalah rincian standar yang diterapkan dalam proyek ini:
 
 ### 1Dokumentasi Diagram Sistem
 * **Source**: Aplikasi Mobile & Web E-Commerce.
